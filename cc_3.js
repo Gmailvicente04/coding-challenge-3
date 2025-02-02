@@ -24,3 +24,21 @@ let totalOrders = orders.reduce((sum, order) => sum + order, 0);
 // Log the updated array and total order count to the console
 console.log(orders);
 console.log("Total Orders:", totalOrders);
+
+// Task 3
+// Declare an object representing an employee
+let employee = {
+    name: "Patrick Mahomes",
+    role: "NFL Quarterback",
+    performanceScore: 93,
+    isActive: true
+};
+
+// Update the performanceScore property
+employee.performanceScore = 95;
+
+// Add a new property promotionEligible with a boolean value
+employee.promotionEligible = employee.performanceScore > 80;
+
+// Log the updated employee object
+console.log(employee);
