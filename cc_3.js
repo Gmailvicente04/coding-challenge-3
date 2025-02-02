@@ -56,3 +56,18 @@ feedback.push({ customerName: "Kevin Durant", feedbackText: "Average service exp
 
 // Log the updated feedback array
 console.log(feedback);
+
+// Task 5
+// Declare an object representing inventory
+let inventory = {
+    itemName: "Porsche 911",
+    stockCount: 50,
+    price: 320000,
+    calculateTotalValue: function() {
+        return this.stockCount * this.price;
+    }
+};
+
+// Log the inventory object and total value
+console.log(inventory);
+console.log("Total Inventory Value:", inventory.calculateTotalValue());
