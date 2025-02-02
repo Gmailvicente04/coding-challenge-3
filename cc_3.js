@@ -10,3 +10,17 @@ prices.shift();
 
 // Display the updated prices array
 console.log(prices);
+
+//Task 2
+// Declare an array representing order quantities
+let orders = [10, 20, 25, 60, 70];
+
+// Increase the third order quantity by 5
+orders[2] += 5;
+
+// Calculate the total number of all orders
+let totalOrders = orders.reduce((sum, order) => sum + order, 0);
+
+// Log the updated array and total order count to the console
+console.log(orders);
+console.log("Total Orders:", totalOrders);
