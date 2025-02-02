@@ -42,3 +42,17 @@ employee.promotionEligible = employee.performanceScore > 80;
 
 // Log the updated employee object
 console.log(employee);
+
+// Task 4
+// Declare an array containing customer feedback objects
+let feedback = [
+    { customerName: "Patrick Mahomes", feedbackText: "Really good service!", rating: 5 },
+    { customerName: "Jayson Tatum", feedbackText: "Good prices, but slow delivery.", rating: 3 },
+    { customerName: "Alexis Sanchez", feedbackText: "Amazing service and quality!", rating: 4 }
+];
+
+// Add a new feedback object to the array
+feedback.push({ customerName: "Kevin Durant", feedbackText: "Average service experience.", rating: 3 });
+
+// Log the updated feedback array
+console.log(feedback);
